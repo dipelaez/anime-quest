@@ -12,9 +12,14 @@ python aq_leitor_de_barras.py <GTIN>
 ```
 O script irá abrir em seu navegador padrão a URL da página correspondente no site [MyFigureCollection](https://myfigurecollection.net/).
 #### Dependências
-O script foi escrito em Python 3 e depende das bibliotecas requests e beautifulsoup4. Você pode instalá-las utilizando o gerenciador de pacotes pip:
+O código acima utiliza as seguintes bibliotecas do Python:
+- **webbrowser**: Biblioteca padrão do Python que fornece uma interface simples para abrir URLs em um navegador da web padrão do sistema.
+- **selenium**: Uma biblioteca de automação de navegador que permite simular interações do usuário com páginas da web.
+- **webdriver**: Um submódulo do selenium que fornece uma API para controlar diferentes navegadores da web de forma programática.
+- **chrome.service**: Um submódulo do selenium.webdriver que fornece a classe Service, usada para configurar o executável do ChromeDriver.
+- **chrome.options**: Um submódulo do selenium.webdriver que fornece a classe Options, usada para configurar as opções do ChromeDriver.
+Certifique-se de ter todas essas bibliotecas instaladas antes de executar o código acima. Para instalar as bibliotecas selenium e webdriver, você pode utilizar o gerenciador de pacotes pip:
 ```py
-pip install requests beautifulsoup4
+pip install selenium webdriver
 ```
-
-
+Além disso, o código também requer o ChromeDriver instalado em seu sistema e o caminho para o executável do ChromeDriver deve ser especificado na variável PATH conforme mostrado no código acima. Certifique-se de ter o ChromeDriver instalado e configurado corretamente antes de executar o código.
