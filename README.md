@@ -22,4 +22,3 @@ Certifique-se de ter todas essas bibliotecas instaladas antes de executar o cód
 ```py
 pip install selenium webdriver
 ```
-Além disso, o código também requer o ChromeDriver instalado em seu sistema e o caminho para o executável do ChromeDriver deve ser especificado na variável PATH conforme mostrado no código acima. Certifique-se de ter o ChromeDriver instalado e configurado corretamente antes de executar o código.
