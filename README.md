@@ -3,7 +3,7 @@ Este repositório contém um conjunto de ferramentas que podem ser úteis para p
 
 
 ## aq_leitor_de_barras.py
-O script **aq_leitor_de_barras.py** é uma ferramenta que pode ser utilizada para automatizar a busca de informações de figuras de animes e mangás. Ele é capaz de extrair informações a partir de um GTIN (Global Trade Item Number) e utilizar esses dados para localizar a página correspondente no site [MyFigureCollection](https://myfigurecollection.net/).
+O script **aq_leitor_de_barras.py** é uma ferramenta que pode ser utilizada para automatizar a busca de informações de figuras de animes e mangás. Ele é capaz de localizar a página correspondente de um item no site [MyFigureCollection](https://myfigurecollection.net/) utilizando um GTIN (Global Trade Item Number) como input.
 
 ### Utilização
 Para utilizar o script, basta executá-lo a partir do terminal, informando o GTIN como argumento:
