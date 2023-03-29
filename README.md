@@ -18,6 +18,7 @@ O código acima utiliza as seguintes bibliotecas do Python:
 - **webdriver**: Um submódulo do selenium que fornece uma API para controlar diferentes navegadores da web de forma programática.
 - **chrome.service**: Um submódulo do selenium.webdriver que fornece a classe Service, usada para configurar o executável do ChromeDriver.
 - **chrome.options**: Um submódulo do selenium.webdriver que fornece a classe Options, usada para configurar as opções do ChromeDriver.
+
 Certifique-se de ter todas essas bibliotecas instaladas antes de executar o código acima. Para instalar as bibliotecas selenium e webdriver, você pode utilizar o gerenciador de pacotes pip:
 ```py
 pip install selenium webdriver
