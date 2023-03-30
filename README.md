@@ -40,6 +40,7 @@ As seguintes bibliotecas são utilizadas no script e precisam estar instaladas:
 - BeautifulSoup
 - pandas
 - unidecode
+
 Você pode instalá-las através do comando pip:
 ```py
 pip install requests beautifulsoup4 pandas unidecode
